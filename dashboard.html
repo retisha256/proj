@@ -11,41 +11,46 @@
             border: 1px solid ;
         }
         body{
-      background-image: url();
+      background-image: url(1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       margin-top:20px ;
+    }
+    .col-md-9{
+        margin-left: 500px;
     }
         h1{
             text-align: center;
             color:white;
         }
         
-    .card-body{background-color:orange;}
-    .card{background-color: greenyellow;}
+    
+    .card{background-color: olive;
+    margin-left: 50px;}
     
 
     </style>
 </head>
-<body style="background-image: url(agrik.webp);">
+<body style="background-image: url(1.jpg);">
     <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header text kgl-headers">
-                        <h4>Menu</h4>
-                    </div>
-                    <div class="card-body">
-                        <ul class="list-group">
-                            <li class="list-group-item"><a href="dashboard.html">Dashboard</a></li>
-                            <li class="list-group-item">Companies</li>
-                            <li class="list-group-item"><a href="user.html">Users</a></li>
-                            <li class="list-group-item"> <a href="products.html">Products</a></li>
-                            <li class="list-group-item">Payments</li>
-                            <li class="list-group-item"><a href="index.html">Sales</li>
-                            <li class="list-group-item"><a href="index.html">Logout</a></li>
-                        </ul>
-                    </div>
+        
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="products.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="accounts.html">My account</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="user.html">Users</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" aria-disabled="true">Sales</a>
+                        </li>
+                      </ul>
                 </div>
             </div>
             <div class="col-9">
@@ -136,7 +141,7 @@
                                       </tr>
                                       <tr>
                                         <th scope="row">2</th>
-                                        <td>Matugga</td>
+                                        <td>Maganjo</td>
                                         <td>Beans</td>
                                         <td>150,000</td>
                                       </tr>
